@@ -9,6 +9,26 @@ body {
 .web-logo {
     color: #4D5AE5;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.link:hover, .link:active {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.button:hover, .button:active {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 /*?-------------------------HEADER-------------------------*/
 .header {
 }
@@ -49,20 +69,11 @@ body {
 /*-------------------------ADDRESS-------------------------*/
 .address-info-item {
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: #434455;
-}
-.address-info-item:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
-.address-info-item:active {
-    color: #FFFFFF;
-    background-color: #404BBF;
 }
 .address-info {
 }
@@ -75,7 +86,6 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: calc(60 / 56);
-    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
@@ -85,16 +95,12 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-
+    background-color: #4D5AE5;
 }
 /*-------------------------PECULIARTIES-------------------------*/
 .peculiarities {
-}
-.title-second {
 }
 .peculiarities-list {
 }
@@ -108,7 +114,6 @@ body {
     color: #2E2F42;
 }
 .peculiarties-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -123,7 +128,6 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
@@ -137,7 +141,6 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
@@ -149,15 +152,12 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2; 
-    text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -170,9 +170,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
 }
 .portfolio-navigation-item:hover {
@@ -210,8 +207,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
@@ -224,15 +219,12 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
 }
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
