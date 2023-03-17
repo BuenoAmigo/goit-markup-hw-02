@@ -28,6 +28,7 @@ body {
 .button:hover, .button:active {
     color: #FFFFFF;
     background-color: #404BBF;
+    cursor: pointer;
 }
 /*?-------------------------HEADER-------------------------*/
 .header {
