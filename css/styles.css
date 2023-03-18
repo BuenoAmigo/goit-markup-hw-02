@@ -2,6 +2,7 @@
     --blue-text-color: #4d5ae5;
     --black-text-color: #2e2f42;
     --black-p-color: #434455;
+    --white-text-color: #F4F4FD;
 
 }
 
@@ -282,7 +283,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--blue-text-color);
     text-decoration: none;
 }
 
@@ -294,7 +295,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--white-text-color);
     text-decoration: none;
 }
 .footer-text {
