@@ -33,7 +33,7 @@ body {
     text-decoration: none;
 }
 .link:hover, 
-.link:active {
+.link:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
@@ -46,7 +46,7 @@ body {
     background-color: #404BBF;
     cursor: pointer;
 }
-.button:active{
+.button:focus{
     font-family: 'Roboto', sans-serif ;
     color: #FFFFFF;
     background-color: #404BBF;
@@ -95,7 +95,7 @@ body {
     text-decoration: none;
 }
 .header-link:hover,
-.header-link:active {
+.header-link:focus {
     font-family: 'Roboto', sans-serif ;
     color: #FFFFFF;
     background-color: #404BBF;
@@ -142,7 +142,7 @@ body {
     cursor: pointer;
 }
 .main-title-btn:hover,
-.main-title-btn:active {
+.main-title-btn:focus {
     font-family: 'Roboto', sans-serif ;
     color: #FFFFFF;
     background-color: #404BBF;
