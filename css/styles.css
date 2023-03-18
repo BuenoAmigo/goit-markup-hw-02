@@ -140,6 +140,13 @@ body {
     background-color: #4D5AE5;
     cursor: pointer;
 }
+.main-title-btn:hover,
+.main-title-btn:active {
+    font-family: 'Roboto', sans-serif ;
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
 /*-------------------------PECULIARTIES-------------------------*/
 .peculiarities {
 }
