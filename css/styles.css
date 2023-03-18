@@ -31,7 +31,8 @@ body {
 .link {
     text-decoration: none;
 }
-.link:hover, .link:active {
+.link:hover, 
+.link:active {
     color: #FFFFFF;
     background-color: #404BBF;
 }
@@ -91,6 +92,13 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
+}
+.header-link:hover,
+.header-link:active {
+    font-family: 'Roboto', sans-serif ;
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
 }
 .header-address {
     font-style: normal;
