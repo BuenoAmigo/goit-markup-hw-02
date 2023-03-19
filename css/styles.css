@@ -96,8 +96,7 @@ body {
 .header-link:hover,
 .header-link:focus {
     font-family: 'Roboto', sans-serif ;
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: #404BBF;
     cursor: pointer;
 }
 .header-address {
