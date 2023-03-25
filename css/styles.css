@@ -3,7 +3,6 @@
     --black-text-color: #2e2f42;
     --black-p-color: #434455;
     --white-text-color: #F4F4FD;
-
 }
 
 body {
@@ -121,7 +120,6 @@ body {
     background-color: #2E2F42;
 }
 .solutions-main-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -130,7 +128,6 @@ body {
 }
 .main-title-btn {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -169,7 +166,7 @@ body {
 /*-------------------------WHAT WE ARE DOING------------------------*/
 .doings {
 }
-.doings-title { font-weight: 700;
+.doings-title { 
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -188,7 +185,6 @@ body {
     background-color: #F4F4FD;
 }
 .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -236,7 +232,6 @@ body {
 }
 .portfolio-button {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -260,7 +255,6 @@ body {
     color: var(--black-text-color);
 }
 .works-example-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
